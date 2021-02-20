@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestAppTool'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = '判断字符串是否包含数字'
 
 # This description is used to generate tags and improve search results.
