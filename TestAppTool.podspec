@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestAppTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestAppTool.'
+  s.summary          = '判断字符串是否包含数字'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A short description of TestAppTool.'
+  s.description      = 'A short description of TestAppTool test'
   s.homepage         = 'https://github.com/zhangdengxu/TestAppTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TestAppTool/Classes/**/*'
+  s.source_files = 'TestAppTool/**/*'
   
   # s.resource_bundles = {
   #   'TestAppTool' => ['TestAppTool/Assets/*.png']

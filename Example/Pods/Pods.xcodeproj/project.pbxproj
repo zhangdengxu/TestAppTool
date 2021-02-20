@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0034A1ED25E0ECF400BEC7A4 /* TestAppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034A1EB25E0ECF400BEC7A4 /* TestAppTool.m */; };
-		0034A1EE25E0ECF400BEC7A4 /* TestAppTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0034A1EC25E0ECF400BEC7A4 /* TestAppTool.h */; };
+		0034A24C25E0F27D00BEC7A4 /* TestAppTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0034A24A25E0F27D00BEC7A4 /* TestAppTool.h */; };
+		0034A24D25E0F27D00BEC7A4 /* TestAppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034A24B25E0F27D00BEC7A4 /* TestAppTool.m */; };
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D751F0FE311D6E3A04E42DD62F0946C /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE87F7213E48CFE9B4B41448280C281 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00EF3D288258BBE195787B9F5400147F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6111F071CD75E6A47B379243C38F59CC /* FBSnapshotTestCase.m */; };
@@ -105,7 +105,6 @@
 		96BC54118F99CACBCEDE0B64784E0737 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDD127923D81FCC10FA3EC547194B7 /* Expecta-dummy.m */; };
 		976BBFB084F61E9064A10576DC029824 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D512482494319EFC2321363FA04040 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 019A89DA7820B809D45D2D192CD027E5 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A7E4AE30150FCCD99685D8D33C03726 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C503540AF0CF0514DCADDC7CB837BD2 /* ReplaceMe.m */; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E211486FA028D3EB7AF012E4C31E4BFE /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9B902E2813A312E058A093C6900A9F8A /* Pods-TestAppTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0F23C5CFD876EE5F2B161A66C2DDB7 /* Pods-TestAppTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57BA4999F427089F0CD66C03993D484 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = DE45BC1993A0E4D41920EA3CC77BD9F6 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -226,14 +225,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0034A1EB25E0ECF400BEC7A4 /* TestAppTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppTool.m; sourceTree = "<group>"; };
-		0034A1EC25E0ECF400BEC7A4 /* TestAppTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppTool.h; sourceTree = "<group>"; };
+		0034A24A25E0F27D00BEC7A4 /* TestAppTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAppTool.h; path = TestAppTool/Classes/TestAppTool.h; sourceTree = "<group>"; };
+		0034A24B25E0F27D00BEC7A4 /* TestAppTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAppTool.m; path = TestAppTool/Classes/TestAppTool.m; sourceTree = "<group>"; };
 		019A89DA7820B809D45D2D192CD027E5 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		037F5CF6DD82B4B454527CB4C0B46851 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF4C9FFB0A78AC6EDF88B9D1F647C94 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
-		0C503540AF0CF0514DCADDC7CB837BD2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestAppTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0DD6FF7766CC0E6A8CC6E4C5FF10CC21 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1004F3B0D7B836E2BE433BDE8AAEA723 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		108488F285A773A3BCE052B9350CD6CD /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
@@ -488,15 +486,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0034A1EA25E0ECF400BEC7A4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0034A1EB25E0ECF400BEC7A4 /* TestAppTool.m */,
-				0034A1EC25E0ECF400BEC7A4 /* TestAppTool.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		00C6C8844FCF73178D27F97E97D3C452 /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -845,8 +834,8 @@
 		EAF1771998031A1A853E21AE4B2B80B0 /* TestAppTool */ = {
 			isa = PBXGroup;
 			children = (
-				0034A1EA25E0ECF400BEC7A4 /* Classes */,
-				0C503540AF0CF0514DCADDC7CB837BD2 /* ReplaceMe.m */,
+				0034A24A25E0F27D00BEC7A4 /* TestAppTool.h */,
+				0034A24B25E0F27D00BEC7A4 /* TestAppTool.m */,
 				B388274281F4CAC0E48353AA991E3D56 /* Pod */,
 				DA36DEC854D8D2E555A0148FA62CDAA0 /* Support Files */,
 			);
@@ -930,6 +919,7 @@
 				59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */,
 				E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */,
 				00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */,
+				0034A24C25E0F27D00BEC7A4 /* TestAppTool.h in Headers */,
 				FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */,
 				ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */,
 				660F79D9086A7962E1FFFA101802E8E0 /* EXPMatchers+match.h in Headers */,
@@ -948,7 +938,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0034A1EE25E0ECF400BEC7A4 /* TestAppTool.h in Headers */,
 				4FFCAE11C3BDACF72B6EDA0A21CE9BC1 /* TestAppTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1269,6 +1258,7 @@
 				188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */,
 				20471DE376ACB94F0E144A26EFFCFD21 /* EXPMatchers+beSupersetOf.m in Sources */,
 				140394F97EEF0A95AB171649249F211C /* EXPMatchers+beTruthy.m in Sources */,
+				0034A24D25E0F27D00BEC7A4 /* TestAppTool.m in Sources */,
 				DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */,
 				7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */,
 				D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */,
@@ -1322,9 +1312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7E4AE30150FCCD99685D8D33C03726 /* ReplaceMe.m in Sources */,
 				B8545950A21AC110A7660B165EF4A144 /* TestAppTool-dummy.m in Sources */,
-				0034A1ED25E0ECF400BEC7A4 /* TestAppTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
