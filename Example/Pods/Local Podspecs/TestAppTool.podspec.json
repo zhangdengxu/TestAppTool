@@ -1,0 +1,22 @@
+{
+  "name": "TestAppTool",
+  "version": "0.1.0",
+  "summary": "A short description of TestAppTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1055108521@qq.com/TestAppTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1055108521@qq.com": "dengxu.zhang@fenbeitong.com"
+  },
+  "source": {
+    "git": "https://github.com/1055108521@qq.com/TestAppTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestAppTool/Classes/**/*"
+}

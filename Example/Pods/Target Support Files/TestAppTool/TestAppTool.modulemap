@@ -1,0 +1,6 @@
+framework module TestAppTool {
+  umbrella header "TestAppTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
