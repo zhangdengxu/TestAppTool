@@ -14,7 +14,7 @@
 
 @implementation TestAppTool
 
-// 数字
+// 数字判断
 + (BOOL)isStringContainNumberWith:(NSString *)str{
     NSRegularExpression *numberRegular = [NSRegularExpression regularExpressionWithPattern:@"[0-9]" options:NSRegularExpressionCaseInsensitive error:nil];
     NSInteger count = [numberRegular numberOfMatchesInString:str options:NSMatchingReportProgress range:NSMakeRange(0, str.length)];
